@@ -1,5 +1,6 @@
 provider "aws" {
-     
+   access_key = "" 
+   secret_key = ""
 }
 
 resource "aws_instance" "Dev" {
